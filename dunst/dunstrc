@@ -1,0 +1,49 @@
+# vim:ft=cfg
+[global]
+    font = "Monospace 10"
+    allow_markup = yes
+    format = "<b>%s %p</b>\n%b"
+    sort = yes
+    indicate_hidden = true
+    # geometry = "x5"
+    idle_threshold = 0
+    geometry = "500x15-20+20"
+    alignment = left
+    show_age_threshold = 60
+    sticky_history = yes
+    follow = mouse
+    word_wrap = yes
+    separator_height = 3
+    padding = 15
+    horizontal_padding = 15
+    separator_color = frame
+    startup_notification = false
+    dmenu = "/usr/bin/dmenu -p dunst: -nb #FFFFFF -nf #000000 -sb #94DBFF -sf #000000"
+    browser = /home/knopwob/bin/url_dispatcher
+
+
+[frame]
+    width = 3
+    color = "#66D9EF"
+
+[shortcuts]
+    close = ctrl+space
+    close_all = ctrl+shift+space
+    history = ctrl+grave
+    context = ctrl+shift+period
+
+[urgency_low]
+    background = "#272822"
+    foreground = "#FD971F"
+    timeout = 15
+
+[urgency_normal]
+    background = "#272822"
+    foreground = "#ffffff"
+    timeout = 15
+
+[urgency_critical]
+    background = "#272822"
+    foreground = "#F92672"
+    timeout = 0
+
