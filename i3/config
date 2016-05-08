@@ -214,6 +214,7 @@ exec_always feh --bg-scale ~/Pictures/wallpaper/HL_Strider.png
 # No focus on mouse over
 focus_follows_mouse no
 
+exec --no-startup-id compton
 exec --no-startup-id gnome-settings-daemon
 exec --no-startup-id dunst
 exec xrdb -load .Xresource
